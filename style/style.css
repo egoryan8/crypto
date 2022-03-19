@@ -99,20 +99,55 @@
     width: 100%;
     background-color:#a7a3c9;
     position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #000;
 }
 
-.history__title {
-    margin: 0;
+.two-columns__header {
+    margin: 7% 0 0;
     padding: 50px 0 0 32px;
 }
 
-.history__subtitle {
-    width: 600px;
-    margin-left: 32px;
+.two-columns {
+    display: flex;
+    z-index: 2;
 }
 
-.bitcoin {
+.two-columns__headers {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.two-columns__header {
+    margin: 0 0 50% 0;
+    line-height: 30px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.two-columns_main-text {
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    z-index: 2;
+}
+
+.two-columns__paragraph {
+    width: 600px;
+    margin: 7% 0 15% 5%;
+    line-height: 1.15;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.history__siluet {
+    width: 400px;
+    height: 400px;
     position: absolute;
-    top: 50%;
-    
+    bottom: 0;
+    right: 0;
+    z-index: 1;
 }
