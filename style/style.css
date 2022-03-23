@@ -158,13 +158,14 @@
     flex-direction: column;
     position: relative;
     min-height: 750px;
+    color: #000;
 }
 
 .technology__title {
     align-self: center;
     line-height: 36px;
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 700;
     z-index: 1;
 }
 
@@ -177,8 +178,8 @@
     align-items: center;
     top: 40px;
     line-height: 1.15;
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 900;
 }
 
 .techology__text {
@@ -205,5 +206,5 @@
 
 .span {
     font-weight: bold;
-    color: #c75c05;
+    color: #CD5C5C;
 }
