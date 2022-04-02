@@ -172,18 +172,18 @@
 
 .technology__subtitle {
     text-transform: uppercase;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 80px;
     padding: auto;
     display: flex;
     align-items: center;
     top: 40px;
     line-height: 1.15;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 900;
 }
 
 .techology__text {
-    margin-left: 100px;
+    margin-left: 80px;
     width: 600px;
     flex-wrap: wrap;
     line-height: 1.15;
@@ -192,10 +192,11 @@
 }
 
 .technology__blockchain {
+    background-image: url(../images/1odfsihm.png);
     height: 600px;
     position: absolute;
-    right: 32px ;
-    bottom: 32px;
+    right: 12px ;
+    bottom: 12px;
 }
 
 .vopros {
